@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         }.start();
     }
     public void animationHandler(){
-        //Tek resim animator yardımı ile hareket edecek
+        //Tek resim animator yardımı ile hareket edecek (Ekran boyutlarının sınırları icerisinde)
         Random rand = new Random();
         int randomX = rand.nextInt(dpWidth + dpWidth) - dpWidth;
         int randomY = rand.nextInt(dpHeight + dpHeight) - dpHeight;
